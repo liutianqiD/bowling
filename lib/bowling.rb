@@ -3,9 +3,9 @@ class Bowling
         @score = 0
     end
     
-    def add_score(score1)
+    def add_score(score)
         
-        @score = @score + score1
+        @score = @score + score
             
     end
     
