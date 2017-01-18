@@ -3,16 +3,15 @@ class Bowling
         @score = 0
     end
     
-    def add_score(score)
+    def add_score(score1)
         
-        @score = @score + score
+        @score = @score + score1
             
-    
     end
     
     def total_score
         @score
-        
     end
     
 end
+
